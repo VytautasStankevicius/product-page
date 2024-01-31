@@ -1,7 +1,7 @@
 {
   "name": "product-page",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://VytautasStankevicius.github.io/product-page",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",

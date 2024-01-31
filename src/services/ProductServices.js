@@ -1,3 +1,24 @@
+// import axios from "axios";
+
+// const privateAPI = axios.create({
+//   headers: {'Authorization': 'Bearer '+ token}
+// });
+
+// export const setToken = (token) =>{
+//   privateAPI.headers = {'Authorization': 'Bearer '+ token}
+// }
+
+
+// export const fetchOurProducts = (token, setOurProducts) => {
+//   console.log('we got here')
+//   privateAPI.get(`https://demo-api.ideabridge.lt/api/products`)
+//     .then((res)=>{
+//       console.log(res.data)
+//     })
+// };
+
+
+
 export const fetchProduct = async (setProduct, id, token) => {
   try {
     const res = await fetch(
